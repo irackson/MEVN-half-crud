@@ -7,6 +7,11 @@
 ```bash
 # Install dependencies
 npm install
+cd client && npm install && cd ..
+
+# environmental variables
+rename template.env to .env
+add your mongo uri to .env
 
 # Start Express Server: http://localhost:5000
 npm start
